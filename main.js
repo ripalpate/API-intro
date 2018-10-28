@@ -20,6 +20,8 @@ const writeToDom = (resources) => {
                        <h3>${resource.contact}</h3>
                        <p>${resource.contact_type}</p>
                        <p>${resource.location_1_address}</p>
+                       <p>${resource.location_1_city}</p>
+                       <p>${resource.location_1_state}</p>
                    </div>
                    `
 })
